@@ -1,0 +1,26 @@
+hr{
+    background-color:white;
+}
+body>div{
+    background-color:purple;
+}
+
+/* para pantallas pequeñas */
+@media (min-width: 576px) { 
+    body>div{
+        background-color:green;
+    }
+}
+/* para pantallas medianas */
+@media (min-width: 768px) { 
+    body>div{
+        background-color:orange;
+    }
+}
+/* para pantallas largas */
+@media (min-width: 992px){ 
+    body>div{
+        background-color:red;
+    }
+  
+}
